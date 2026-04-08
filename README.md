@@ -1,14 +1,14 @@
 # project-doc-routing
 
-> Codex 专用技能：大型项目文档分流体系
+> AI Agent 技能：大型项目文档分流体系（适用于 Claude Code、Codex 等）
 
 ## 安装
 
-将 `project-doc-routing/` 文件夹整体复制到 Codex 技能目录即可。
+将 `project-doc-routing/` 文件夹整体复制到技能目录即可。
 
 ```
-# Codex 技能目录
-your-codex-skills/
+# 技能目录（Claude Code / Codex 等）
+your-skills/
 └── project-doc-routing/     ← 复制这个文件夹
     ├── SKILL.md             # 技能主文件
     ├── assets/              # 模板资源

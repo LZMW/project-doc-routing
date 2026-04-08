@@ -4,7 +4,7 @@
 
 ## 安装
 
-将 `skill/` 文件夹整体复制到 Codex 技能目录即可。
+将 `project-doc-routing/` 文件夹整体复制到 Codex 技能目录即可。
 
 ```
 # Codex 技能目录
@@ -49,7 +49,7 @@ your-codex-skills/
 ## 技能包结构
 
 ```
-skill/
+project-doc-routing/
 ├── SKILL.md                    # 技能主文件（Codex 加载用）
 ├── assets/
 │   └── project-doc-kit/        # 开箱即用的模板骨架

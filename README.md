@@ -2,6 +2,19 @@
 
 > Codex 专用技能：大型项目文档分流体系
 
+## 安装
+
+将 `skill/` 文件夹整体复制到 Codex 技能目录即可。
+
+```
+# Codex 技能目录
+your-codex-skills/
+└── project-doc-routing/     ← 复制这个文件夹
+    ├── SKILL.md             # 技能主文件
+    ├── assets/              # 模板资源
+    └── references/          # 参考文档
+```
+
 ## 简介
 
 本技能用于为任何大型项目建立一套不混乱的文档体系。它把文档拆成七层：
@@ -33,13 +46,11 @@
 - 不把 task-chains 写成现状快照
 - 不跳过代码校准，只拿文档互相抄
 
-## 目录结构
+## 技能包结构
 
 ```
-project-doc-routing/
+skill/
 ├── SKILL.md                    # 技能主文件（Codex 加载用）
-├── README.md                   # 本文件
-├── LICENSE                     # MIT 许可证
 ├── assets/
 │   └── project-doc-kit/        # 开箱即用的模板骨架
 │       ├── docs/               # 文档模板
@@ -53,12 +64,6 @@ project-doc-routing/
     ├── phased-review-thread-prompt.md            # 审查线程提示词
     └── phased-review-thread-prompt-delivery.md
 ```
-
-## 使用方式
-
-1. 将 `SKILL.md` 放入 Codex 技能目录
-2. 当用户询问文档体系搭建时，Codex 会自动触发本技能
-3. 使用 `assets/project-doc-kit/` 中的模板快速落地
 
 ## 适用场景
 

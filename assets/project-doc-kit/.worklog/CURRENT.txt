@@ -1,0 +1,26 @@
+项目工作流水账
+================
+
+最后更新：<YYYY-MM-DD HH:mm:ss>
+角色：过程记录，不是正式文档，不参与主入口判断。
+
+记录规则
+--------
+- 这里允许写命令、测试结果、讨论变化、临时判断、原始审计。
+- 这里不负责替代现状、阶段结论或未来路径。
+- 到达关键节点后，只把稳定结论提炼进正式文档。
+
+当前卷说明
+----------
+- 卷名：<worklog-volume-name>
+- 目标：<本阶段目标>
+- 基线分支：<baseline-branch>
+- 基线提交：<baseline-commit>
+
+当前已记录事项
+--------------
+- <YYYY-MM-DD HH:mm> 已创建仓库外备份：<path>
+- <YYYY-MM-DD HH:mm> 已创建本地检查点：<branch-or-commit>
+- <YYYY-MM-DD HH:mm> 已执行命令：<command>
+- <YYYY-MM-DD HH:mm> 已确认结论：<temporary-conclusion>
+- <YYYY-MM-DD HH:mm> 已完成校验：<validation-result>
